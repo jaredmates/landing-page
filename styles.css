@@ -21,6 +21,11 @@ figure {
   text-align: center;
 }
 
+figure div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgb(2, 13, 125);
+}
+
 button {
   background-color: #3882f6;
   margin: 0;
@@ -28,6 +33,11 @@ button {
   border-radius: 8px;
   color: #e5e7eb;
   font-weight: 600;
+}
+
+button:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
 }
 
 blockquote {
@@ -43,6 +53,7 @@ figure div {
   border: 3px solid rgb(71, 132, 231);
   border-radius: 8px;
   margin-bottom: 5px;
+  background: url(./images/balloon.jpg) no-repeat center center fixed;
 }
 
 blockquote > footer {
@@ -96,6 +107,8 @@ div > h1 {
 
 .header {
   background-color: #1f2937;
+  /* background: url(./images/balloon.jpg) no-repeat center center fixed; */
+  /* background-size: cover; */
 }
 
 .nav-links {
@@ -153,6 +166,11 @@ div > h1 {
 
 .signup-button {
   border: 2px solid #e5e7eb;
+}
+
+.signup-button:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
 }
 
 .footer {
